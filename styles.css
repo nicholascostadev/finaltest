@@ -52,7 +52,10 @@ a:hover {
         text-align: center;
     }
 
-    .forbes-anchor {}
+    .forbes-anchor-div {
+        text-align: left;
+        padding: 0 2%;
+    }
 
     .newzoo-image {
         margin: 2%;
@@ -113,11 +116,6 @@ a:hover {
     padding: 10% 0;
 }
 
-.forbes-phrase {
-    font-size: 3vh;
-    padding: 7% 0 0;
-}
-
 .forbes-image {
     border-radius: 100%;
     text-align: center;
@@ -127,6 +125,7 @@ a:hover {
 
 .forbes-phrase {
     font-size: 3vh;
+    padding: 7% 0 0;
     background-color: rgb(25, 25, 25);
     text-align: left;
     line-height: 2;
