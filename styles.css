@@ -35,6 +35,10 @@ a:hover {
 }
 
 @media (max-width: 1028px) {
+    .data-title {
+        text-align: center;
+    }
+
     .data-text {
         text-align: center;
     }
@@ -142,7 +146,7 @@ a:hover {
     font-family: 'Inter', sans-serif;
     text-align: left;
     color: #000;
-    padding: 11% 5%;
+    padding: 15% 5%;
 }
 
 
@@ -155,12 +159,18 @@ a:hover {
     padding: 11% 5%;
 }
 
+.data-title {
+    font-size: 5vh;
+    padding-bottom: 3%;
+}
+
 .data-text {
     font-size: 3vh;
 }
 
 .data-anchor {
-    font-size: 1.75vh !important;
+    font-size: 1.75vh;
+    padding: 0 2% 0 0;
 }
 
 /* Last Section */
