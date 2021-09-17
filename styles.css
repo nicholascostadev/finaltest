@@ -43,6 +43,15 @@ a:hover {
         text-align: center;
     }
 
+    .forbes-text {
+        text-align: center;
+        padding: 0 5%;
+    }
+
+    .forbes-anchor {
+        padding: 0 5%;
+    }
+
     .newzoo-image {
         margin: 2%;
     }
@@ -95,19 +104,23 @@ a:hover {
 #second-section {
     font-family: 'Inter', sans-serif;
     background-color: rgb(25, 25, 25);
-    padding: 0.5% 0 0.5% 0;
+    padding: 12% 0;
 }
 
 .forbes-div {
     padding: 10% 0;
 }
 
+.forbes-phrase {
+    font-size: 3vh;
+    padding: 7% 0 0;
+}
+
 .forbes-image {
-    float: left;
     border-radius: 100%;
-    text-align: left;
+    text-align: center;
     margin: 2%;
-    width: 25%;
+    width: 75%;
 }
 
 .forbes-phrase {
@@ -118,7 +131,9 @@ a:hover {
 }
 
 .forbes-anchor {
+    margin: 10% 0 0;
     text-align: left;
+    font-size: 1.75vh;
 }
 
 
