@@ -1,7 +1,8 @@
 body {
     background-color: #fff;
     color: #fff;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -31,7 +32,7 @@ a:hover {
 
 /* Top section */
 .nav-item {
-    padding: 0 5rem;
+    padding: 0 3rem;
 }
 
 .stadium-img {
