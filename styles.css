@@ -50,6 +50,10 @@ a:hover {
     .newzoo-phrase {
         text-align: center;
     }
+
+    .nav-item {
+        text-align: right;
+    }
 }
 
 
