@@ -11,7 +11,7 @@ body {
 a {
     text-decoration: underline;
     color: white;
-    font-weight: 100;
+    font-weight: 800;
     display: inline-block;
 }
 
@@ -63,6 +63,7 @@ a:hover {
 
 /* Second Section */
 #second-section {
+    font-family: 'Inter', sans-serif;
     background-color: rgb(25, 25, 25);
     padding: 0.5% 0 0.5% 0;
 }
@@ -84,6 +85,7 @@ a:hover {
 
 /* Third Section */
 #third-section {
+    font-family: 'Inter', sans-serif;
     color: #000;
     padding: 9% 0 1% 0;
 }
@@ -111,8 +113,10 @@ a:hover {
 
 /* Fourth Section */
 #fourth-section {
+    font-family: 'Inter', sans-serif;
+    text-align: left;
     background-color: rgb(25, 25, 25);
-    padding: 11% 0 11% 0;
+    padding: 11% 5%;
 }
 
 .data-text {
@@ -121,7 +125,9 @@ a:hover {
 
 /* Last Section */
 #last-section {
-    padding: 18% 0;
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+    padding: 11% 5%;
     color: #000;
 }
 
