@@ -159,6 +159,10 @@ a:hover {
     font-size: 3vh;
 }
 
+.data-anchor {
+    font-size: 1.75vh !important;
+}
+
 /* Last Section */
 #last-section {
     font-family: 'Inter', sans-serif;
