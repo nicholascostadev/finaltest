@@ -12,7 +12,7 @@ body {
 a {
     text-decoration: underline;
     color: white;
-    font-weight: 800;
+    font-weight: 600;
     display: inline-block;
 }
 
@@ -30,9 +30,19 @@ a:hover {
     color: rgb(107, 107, 107)
 }
 
+.mobile-text {
+    text-align: right;
+}
+
+@media (max-width: 600px) {
+    .mobile-text {
+        text-align: center;
+    }
+}
+
 /* Top section */
 .nav-item {
-    padding: 0 3rem;
+    padding: 0 2rem;
 }
 
 .stadium-img {
@@ -87,30 +97,12 @@ a:hover {
 /* Third Section */
 #third-section {
     font-family: 'Inter', sans-serif;
-    color: #000;
-    padding: 9% 0 1% 0;
-}
-
-.newzoo-image {
-    text-align: right;
-    float: right;
-    width: 25%;
-    margin: 2% 6% 0 2%;
-}
-
-.newzoo-phrase {
-    padding: 10% 0;
     text-align: left;
-    height: 50%;
-    line-height: 1.5;
-    display: inline-block;
-    width: 60%
+    color: #000;
+    padding: 11% 5%;
 }
 
-.newzoo-anchor {
-    padding: 0 4%;
 
-}
 
 /* Fourth Section */
 #fourth-section {
@@ -128,16 +120,46 @@ a:hover {
 #last-section {
     font-family: 'Inter', sans-serif;
     text-align: left;
-    padding: 11% 5%;
+    padding: 6% 5%;
     color: #000;
+}
+
+.newzoo-image {
+    text-align: right;
+    float: right;
+    width: 25%;
+    margin: 2% 6% 0 2%;
+}
+
+.newzoo-phrase {
+    padding: 10% 5%;
+    text-align: left;
+    height: 50%;
+    line-height: 1.5;
+    display: inline-block;
+    width: 60%
+}
+
+.newzoo-anchor {
+    padding: 0 4%;
+
 }
 
 /* Footer */
 #footer {
+    text-align: center;
     background-color: rgb(25, 25, 25);
     padding: 3% 0 2%;
 }
 
 .footer-link {
-    padding: 2% 3% 0 3%;
+    text-align: center;
+    padding: 2% 15% 3% 15%;
+}
+
+.copyright {
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    left: 16px
 }
