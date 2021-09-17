@@ -31,14 +31,20 @@ a:hover {
 }
 
 .mobile-text {
-    text-align: right;
+    text-align: right !important;
 }
 
-@media (max-width: 600px) {
-    .mobile-text {
+@media (max-width: 1028px) {
+    .data-text {
+        text-align: center;
+    }
+
+    h2 {
         text-align: center;
     }
 }
+
+
 
 /* Top section */
 .nav-item {
@@ -79,6 +85,10 @@ a:hover {
     padding: 0.5% 0 0.5% 0;
 }
 
+.forbes-div {
+    padding: 10% 0;
+}
+
 .forbes-image {
     float: left;
     border-radius: 100%;
@@ -88,11 +98,16 @@ a:hover {
 }
 
 .forbes-phrase {
+    font-size: 3vh;
     background-color: rgb(25, 25, 25);
-    padding: 10% 0;
     text-align: left;
     line-height: 2;
 }
+
+.forbes-anchor {
+    text-align: left;
+}
+
 
 /* Third Section */
 #third-section {
@@ -113,7 +128,7 @@ a:hover {
 }
 
 .data-text {
-    font-size: 3rem
+    font-size: 3vh
 }
 
 /* Last Section */
@@ -133,17 +148,21 @@ a:hover {
 
 .newzoo-phrase {
     padding: 10% 5%;
-    text-align: left;
     height: 50%;
     line-height: 1.5;
     display: inline-block;
     width: 60%
 }
 
+.newzoo-anchors {
+    margin-left: 1%;
+}
+
 .newzoo-anchor {
     padding: 0 4%;
 
 }
+
 
 /* Footer */
 #footer {
