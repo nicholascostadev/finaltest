@@ -11,7 +11,7 @@ body {
 a {
     text-decoration: underline;
     color: white;
-    font-weight: 800;
+    font-weight: 100;
     display: inline-block;
 }
 
@@ -20,7 +20,7 @@ a:hover {
 }
 
 .black-anchor {
-    font-weight: bold;
+    font-weight: 800;
     color: #000;
 
 }
@@ -62,6 +62,10 @@ a:hover {
 }
 
 /* Second Section */
+#second-section {
+    background-color: rgb(25, 25, 25);
+    padding: 0.5% 0 0.5% 0;
+}
 
 .forbes-image {
     float: left;
@@ -81,7 +85,7 @@ a:hover {
 /* Third Section */
 #third-section {
     color: #000;
-    padding: 8% 0 0 0;
+    padding: 9% 0 1% 0;
 }
 
 .newzoo-image {
@@ -103,6 +107,22 @@ a:hover {
 .newzoo-anchor {
     padding: 0 4%;
 
+}
+
+/* Fourth Section */
+#fourth-section {
+    background-color: rgb(25, 25, 25);
+    padding: 11% 0 11% 0;
+}
+
+.data-text {
+    font-size: 3rem
+}
+
+/* Last Section */
+#last-section {
+    padding: 18% 0;
+    color: #000;
 }
 
 /* Footer */
