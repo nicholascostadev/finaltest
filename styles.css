@@ -35,6 +35,7 @@ a:hover {
 }
 
 @media (max-width: 1028px) {
+
     .data-title {
         text-align: center;
     }
@@ -88,6 +89,7 @@ a:hover {
 }
 
 .stadium-text {
+    font-size: 3vh;
     text-align: center;
     position: absolute;
     top: 50%;
