@@ -100,7 +100,7 @@ a:hover {
     color: #fff;
     text-shadow: 3px 3px 3px rgba(25, 25, 25);
     font-family: 'Lato', sans-serif;
-    font-size: 10vw;
+    font-size: 10vmax;
     font-weight: bold;
     text-align: center;
 }
