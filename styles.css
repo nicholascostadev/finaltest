@@ -73,6 +73,7 @@ a:hover {
 
 
 /* Top section */
+
 .nav-item {
     padding: 0 2rem;
     text-align: right;
@@ -80,7 +81,7 @@ a:hover {
 
 .stadium-img {
     background-image: url('images/csgo.jpeg');
-    height: 95.64293304994686vh;
+    height: 101.64293304994686vh;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -146,6 +147,15 @@ a:hover {
     padding: 15% 5%;
 }
 
+.csgodupreeh-img-div {
+    text-align: center;
+}
+
+.csgodupreeh-img {
+    width: 100%;
+    margin: 2%;
+    border-radius: 5%
+}
 
 
 /* Fourth Section */
@@ -153,7 +163,7 @@ a:hover {
     font-family: 'Inter', sans-serif;
     text-align: left;
     background-color: rgb(25, 25, 25);
-    padding: 11% 5%;
+    padding: 14% 5%;
 }
 
 .data-title {
@@ -167,7 +177,12 @@ a:hover {
 
 .data-anchor {
     font-size: 1.75vh;
-    padding: 0 2% 0 0;
+    padding: 100px 2% 0 0;
+
+}
+
+.team-inside-img {
+    width: 100%;
 }
 
 /* Last Section */
