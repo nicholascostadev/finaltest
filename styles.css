@@ -81,7 +81,7 @@ a:hover {
 
 .stadium-img {
     background-image: url('images/csgo.jpeg');
-    height: 101.64293304994686vh;
+    height: 94.64293304994686vh;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -110,7 +110,7 @@ a:hover {
 #second-section {
     font-family: 'Inter', sans-serif;
     background-color: rgb(25, 25, 25);
-    padding: 12% 0;
+    padding: 11% 0;
 }
 
 .forbes-div {
@@ -144,7 +144,7 @@ a:hover {
     font-family: 'Inter', sans-serif;
     text-align: left;
     color: #000;
-    padding: 15% 5%;
+    padding: 12.5% 5%;
 }
 
 .csgodupreeh-img-div {
@@ -163,7 +163,7 @@ a:hover {
     font-family: 'Inter', sans-serif;
     text-align: left;
     background-color: rgb(25, 25, 25);
-    padding: 14% 5%;
+    padding: 12.5% 5%;
 }
 
 .data-title {
@@ -188,7 +188,7 @@ a:hover {
 /* Last Section */
 #last-section {
     font-family: 'Inter', sans-serif;
-    padding: 14% 5%;
+    padding: 12% 5%;
     color: #000;
 
 }
